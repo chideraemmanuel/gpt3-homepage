@@ -68,10 +68,12 @@
 
 .navbar__mobile--hamburger span::before {
   transform: translateY(-7px);
+  transform: rotate(0);
 }
 
 .navbar__mobile--hamburger span::after {
   transform: translateY(7px);
+  transform: rotate(0);
 }
 
 .navbar__mobile--hamburger.open span {
