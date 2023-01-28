@@ -1,0 +1,29 @@
+.companies {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-top: 70px;
+}
+
+.companies__company {
+  height: 25px;
+}
+
+.companies__company img {
+  height: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .companies {
+    gap: 20px;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .companies__company {
+    height: 20px;
+  }
+}

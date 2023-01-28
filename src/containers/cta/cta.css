@@ -1,0 +1,138 @@
+.cta {
+  background: var(--cta-gradient);
+  padding: 50px 30px;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 130px;
+  color: #000000;
+}
+
+.cta__text span {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.cta__text h3 {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 45px;
+}
+
+.cta__button {
+  display: inline-block;
+  background-color: #000000;
+  color: #fff;
+  padding: 15px 50px;
+  border-radius: 40px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  transition: 0.2s ease;
+}
+
+.cta__button:hover,
+.cta__button:focus {
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 1200px) {
+  .cta {
+    padding: 40px 20px;
+  }
+
+  .cta__text h3 {
+    font-size: 20px;
+    line-height: 38px;
+  }
+
+  .cta__text span {
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+  .cta__button {
+    padding: 10px 35px;
+    border-radius: 40px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .cta {
+    padding: 30px 20px;
+  }
+
+  .cta__text h3 {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .cta__text span {
+    font-size: 8px;
+    line-height: 15px;
+  }
+
+  .cta__button {
+    padding: 8px 25px;
+    border-radius: 40px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .cta {
+    flex-direction: column;
+    /* align-items: flex-start; */
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 25px 20px;
+  }
+
+  .cta__text h3 {
+    line-height: 20px;
+  }
+
+  .cta__button {
+    width: 70%;
+    margin-top: 15px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .cta {
+    margin-top: 70px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cta {
+    width: 90%;
+  }
+
+  .cta__text span {
+    font-size: 6px;
+    line-height: 10px;
+  }
+
+  .cta__text h3 {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .cta__button {
+    width: 90%;
+    padding: 8px 25px;
+    border-radius: 40px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
