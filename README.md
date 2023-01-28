@@ -1,1 +1,1 @@
-- Live Site URL: [Add live site URL here](https://ce-gpt3.netlify.app)
+- Live Site URL: [GPT3 homepage](https://ce-gpt3.netlify.app)
